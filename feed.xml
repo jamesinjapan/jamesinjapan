@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-04T01:29:11+09:00</updated><id>/</id><title type="html">Simpson’s Corner</title><subtitle>A personal web development blog for an amateur looking to turn pro.</subtitle><author><name>James Simpson</name></author><entry><title type="html">Making a Javascript Calculator</title><link href="/2018/06/03/making-javascript-calculator" rel="alternate" type="text/html" title="Making a Javascript Calculator" /><published>2018-06-03T08:00:00+09:00</published><updated>2018-06-03T08:00:00+09:00</updated><id>/2018/06/03/making-javascript-calculator</id><content type="html" xml:base="/2018/06/03/making-javascript-calculator">&lt;p&gt;There is no better way to learn programming than to get stuck into some projects. So as a way to build my own portfolio and to improve my skills as a whole, I will write a few posts about the process of making small projects. Today I will make a basic javascript calculator on CodePen.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-04T22:22:44+09:00</updated><id>/</id><title type="html">Simpson’s Corner</title><subtitle>A personal web development blog for an amateur looking to turn pro.</subtitle><author><name>James Simpson</name></author><entry><title type="html">Making a Javascript Calculator</title><link href="/2018/06/04/making-javascript-calculator" rel="alternate" type="text/html" title="Making a Javascript Calculator" /><published>2018-06-04T01:30:00+09:00</published><updated>2018-06-04T01:30:00+09:00</updated><id>/2018/06/04/making-javascript-calculator</id><content type="html" xml:base="/2018/06/04/making-javascript-calculator">&lt;p&gt;There is no better way to learn programming than to get stuck into some projects. So as a way to build my own portfolio and to improve my skills as a whole, I will write a few posts about the process of making small projects. Today I will make a &lt;a href=&quot;https://codepen.io/jamesinjapan/full/dKGyWP/&quot;&gt;basic javascript calculator on CodePen&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://codepen.io/jamesinjapan/full/dKGyWP/&quot;&gt;Check it out before we begin!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;update-2018064&quot;&gt;Update (2018/06/4)&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/javascript-calculator.jpg&quot; alt=&quot;My Javascript Calculator&quot; title=&quot;Javascript Calculator&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After waking up and trying to check the CodePen on my iPhone, I realised I have some bugs to fix. Keep an eye out for a future post to address the background image not displaying for iOS devices, also ensuring that results that are longer than 12 characters are handled as exponentials.&lt;/p&gt;
+
+&lt;p&gt;Also note that I changed some of the dimensions to ensure the calculator fit on my phone screen. Perhaps we need to make the calculator responsive at different sizes too.&lt;/p&gt;
+
+&lt;p&gt;A final thing I might add in via an updated post is some tests.&lt;/p&gt;
+
+&lt;p&gt;WATCH THIS SPACE!&lt;/p&gt;
 
 &lt;h2 id=&quot;specification&quot;&gt;Specification&lt;/h2&gt;
 
@@ -11,6 +17,11 @@
 &lt;p&gt;Like a regular calculator we will want the user to be able to add to the product of a previous function, as well as keep a number in memory.&lt;/p&gt;
 
 &lt;p&gt;Additionally, it might be nice to have a backspace function for when you accidentally enter the wrong number, and maybe also the ability to make the current number positive or negative.&lt;/p&gt;
+
+&lt;p&gt;You can check out the features that I’ve implemented in the final product below.&lt;/p&gt;
+
+&lt;p data-height=&quot;572&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;dKGyWP&quot; data-default-tab=&quot;result&quot; data-user=&quot;jamesinjapan&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Javascript Calculator&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/jamesinjapan/pen/dKGyWP/&quot;&gt;Javascript Calculator&lt;/a&gt; by James Simpson (&lt;a href=&quot;https://codepen.io/jamesinjapan&quot;&gt;@jamesinjapan&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;setting-up-the-frontend&quot;&gt;Setting up the frontend&lt;/h2&gt;
 
@@ -926,7 +937,7 @@
 
 &lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping up&lt;/h2&gt;
 
-&lt;p&gt;So there it is, a functioning calculator made from scratch in HTML, CSS and Javascript. I hope you like what you see and remember to keep working on small projects to build your experience.&lt;/p&gt;</content><author><name>James Simpson</name></author><category term="[&quot;projects&quot;, &quot;javascript&quot;]" /><summary type="html">There is no better way to learn programming than to get stuck into some projects. So as a way to build my own portfolio and to improve my skills as a whole, I will write a few posts about the process of making small projects. Today I will make a basic javascript calculator on CodePen.</summary></entry><entry><title type="html">Welcome</title><link href="/2018/04/22/welcome" rel="alternate" type="text/html" title="Welcome" /><published>2018-04-22T14:25:00+09:00</published><updated>2018-04-22T14:25:00+09:00</updated><id>/2018/04/22/welcome</id><content type="html" xml:base="/2018/04/22/welcome">&lt;p&gt;Welcome to Simpson’s Corner.&lt;/p&gt;
+&lt;p&gt;So there it is, a functioning calculator made from scratch in HTML, CSS and Javascript. I hope you like what you see and remember to keep working on small projects to build your experience.g&lt;/p&gt;</content><author><name>James Simpson</name></author><category term="[&quot;projects&quot;, &quot;javascript&quot;]" /><summary type="html">There is no better way to learn programming than to get stuck into some projects. So as a way to build my own portfolio and to improve my skills as a whole, I will write a few posts about the process of making small projects. Today I will make a basic javascript calculator on CodePen.</summary></entry><entry><title type="html">Welcome</title><link href="/2018/04/22/welcome" rel="alternate" type="text/html" title="Welcome" /><published>2018-04-22T14:25:00+09:00</published><updated>2018-04-22T14:25:00+09:00</updated><id>/2018/04/22/welcome</id><content type="html" xml:base="/2018/04/22/welcome">&lt;p&gt;Welcome to Simpson’s Corner.&lt;/p&gt;
 
 &lt;p&gt;Over time I will add content based on my programming activities, but for now I’m
 just wrestling with getting &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to 
